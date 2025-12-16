@@ -1,0 +1,41 @@
+{
+  "run": {
+    "test_mode": false,
+    "cancelled": false,
+    "cancel_stage": "finalize",
+    "started_at_unix": 1765839744,
+    "finished_at_unix": 1765842310,
+    "elapsed_seconds": 2565.611,
+    "page_limit": 200,
+    "max_workers": 10
+  },
+  "counts": {
+    "scanned_closed_earnings_tag_markets": 384,
+    "candidates_after_strict_filter": 364,
+    "details_fetched": 364,
+    "final_resolved_markets_saved": 364
+  },
+  "endDate_range": {
+    "earliest_endDate": "2025-09-29T00:00:00Z",
+    "latest_endDate": "2025-12-11T22:00:00Z"
+  },
+  "volumeNum_stats": {
+    "count": 364,
+    "min": 1336.252219,
+    "max": 995129.929459,
+    "mean": 24558.66355232967,
+    "median": 14773.0915655
+  },
+  "discarded_jsonl": "/opt/Polymarket-Corporate-Earnings-Collection/data/earnings_discarded_markets.jsonl",
+  "discard_reasons": {
+    "no_ticker_in_question": 8,
+    "question_not_beat_earnings": 12
+  },
+  "detail_errors_count": 0,
+  "outputs": {
+    "jsonl": "/opt/Polymarket-Corporate-Earnings-Collection/data/earnings_resolved_markets.jsonl",
+    "csv": "/opt/Polymarket-Corporate-Earnings-Collection/data/earnings_resolved_markets.csv",
+    "summary": "/opt/Polymarket-Corporate-Earnings-Collection/data/earnings_resolved_summary.json"
+  },
+  "discarded_markets_logged": 20
+}

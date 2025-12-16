@@ -1,0 +1,191 @@
+[23:02:24] Starting. TEST=False. Output dir: /opt/Polymarket-Corporate-Earnings-Collection/data
+[23:02:24] Looking up tag id for slug='earnings' via /tags/slug/earnings ...
+[23:02:28] Found tag_id=1013 for slug='earnings'.
+[23:02:28] Scanning closed markets with Earnings tag...
+[23:02:35] Fetched /markets page=1 -> 200 markets (new_ids=200).
+[23:02:42] Fetched /markets page=2 -> 184 markets (new_ids=184).
+[23:02:42] Scan progress: scanned=250, candidates=229, discards=20
+[23:02:48] /markets returned no more data at offset=400.
+[23:02:48] Scan done. scanned=384, candidates=364, discards=20
+[23:02:48] Fetching market details for 364 candidates (threads=10) ...
+[23:03:01] Detail progress: 20/364 done, ok=19, errors=0
+[23:03:21] Detail progress: 50/364 done, ok=49, errors=0
+[23:03:40] Detail progress: 80/364 done, ok=79, errors=0
+[23:03:59] Detail progress: 110/364 done, ok=109, errors=0
+[23:04:18] Detail progress: 140/364 done, ok=139, errors=0
+[23:04:37] Detail progress: 170/364 done, ok=169, errors=0
+[23:04:56] Detail progress: 200/364 done, ok=199, errors=0
+[23:05:16] Detail progress: 230/364 done, ok=229, errors=0
+[23:05:35] Detail progress: 260/364 done, ok=259, errors=0
+[23:05:54] Detail progress: 290/364 done, ok=289, errors=0
+[23:06:13] Detail progress: 320/364 done, ok=319, errors=0
+[23:06:32] Detail progress: 350/364 done, ok=349, errors=0
+[23:06:45] Detail fetch done. ok=364 errors=0
+[23:06:45] Building final resolved dataset (strict)...
+[23:06:51] Finalize progress: 2/364 processed, kept=1
+[23:07:10] Finalize progress: 5/364 processed, kept=4
+[23:07:29] Finalize progress: 8/364 processed, kept=7
+[23:07:48] Finalize progress: 11/364 processed, kept=10
+[23:08:07] Finalize progress: 14/364 processed, kept=13
+[23:08:27] Finalize progress: 17/364 processed, kept=16
+[23:08:46] Finalize progress: 20/364 processed, kept=19
+[23:09:05] Finalize progress: 23/364 processed, kept=22
+[23:09:24] Finalize progress: 26/364 processed, kept=25
+[23:09:43] Finalize progress: 29/364 processed, kept=28
+[23:10:02] Finalize progress: 32/364 processed, kept=31
+[23:10:20] Finalize progress: 35/364 processed, kept=34
+[23:10:39] Finalize progress: 38/364 processed, kept=37
+[23:10:58] Finalize progress: 41/364 processed, kept=40
+[23:11:17] Finalize progress: 44/364 processed, kept=43
+[23:11:36] Finalize progress: 47/364 processed, kept=46
+[23:11:55] Finalize progress: 50/364 processed, kept=49
+[23:12:14] Finalize progress: 53/364 processed, kept=52
+[23:12:33] Finalize progress: 56/364 processed, kept=55
+[23:12:52] Finalize progress: 59/364 processed, kept=58
+[23:13:11] Finalize progress: 62/364 processed, kept=61
+[23:13:30] Finalize progress: 65/364 processed, kept=64
+[23:13:49] Finalize progress: 68/364 processed, kept=67
+[23:14:08] Finalize progress: 71/364 processed, kept=70
+[23:14:27] Finalize progress: 74/364 processed, kept=73
+[23:14:46] Finalize progress: 77/364 processed, kept=76
+[23:15:05] Finalize progress: 80/364 processed, kept=79
+[23:15:24] Finalize progress: 83/364 processed, kept=82
+[23:15:43] Finalize progress: 86/364 processed, kept=85
+[23:16:02] Finalize progress: 89/364 processed, kept=88
+[23:16:21] Finalize progress: 92/364 processed, kept=91
+[23:16:40] Finalize progress: 95/364 processed, kept=94
+[23:16:59] Finalize progress: 98/364 processed, kept=97
+[23:17:18] Finalize progress: 101/364 processed, kept=100
+[23:17:37] Finalize progress: 104/364 processed, kept=103
+[23:17:56] Finalize progress: 107/364 processed, kept=106
+[23:18:15] Finalize progress: 110/364 processed, kept=109
+[23:18:34] Finalize progress: 113/364 processed, kept=112
+[23:18:53] Finalize progress: 116/364 processed, kept=115
+[23:19:12] Finalize progress: 119/364 processed, kept=118
+[23:19:31] Finalize progress: 122/364 processed, kept=121
+[23:19:50] Finalize progress: 125/364 processed, kept=124
+[23:20:09] Finalize progress: 128/364 processed, kept=127
+[23:20:28] Finalize progress: 131/364 processed, kept=130
+[23:20:47] Finalize progress: 134/364 processed, kept=133
+[23:21:06] Finalize progress: 137/364 processed, kept=136
+[23:21:25] Finalize progress: 140/364 processed, kept=139
+[23:21:44] Finalize progress: 143/364 processed, kept=142
+[23:22:03] Finalize progress: 146/364 processed, kept=145
+[23:22:22] Finalize progress: 149/364 processed, kept=148
+[23:22:41] Finalize progress: 152/364 processed, kept=151
+[23:23:00] Finalize progress: 155/364 processed, kept=154
+[23:23:19] Finalize progress: 158/364 processed, kept=157
+[23:23:38] Finalize progress: 161/364 processed, kept=160
+[23:23:57] Finalize progress: 164/364 processed, kept=163
+[23:24:16] Finalize progress: 167/364 processed, kept=166
+[23:24:35] Finalize progress: 170/364 processed, kept=169
+[23:24:54] Finalize progress: 173/364 processed, kept=172
+[23:25:13] Finalize progress: 176/364 processed, kept=175
+[23:25:32] Finalize progress: 179/364 processed, kept=178
+[23:25:51] Finalize progress: 182/364 processed, kept=181
+[23:26:10] Finalize progress: 185/364 processed, kept=184
+[23:26:29] Finalize progress: 188/364 processed, kept=187
+[23:26:48] Finalize progress: 191/364 processed, kept=190
+[23:27:07] Finalize progress: 194/364 processed, kept=193
+[23:27:26] Finalize progress: 197/364 processed, kept=196
+[23:27:45] Finalize progress: 200/364 processed, kept=199
+[23:28:04] Finalize progress: 203/364 processed, kept=202
+[23:28:23] Finalize progress: 206/364 processed, kept=205
+[23:28:42] Finalize progress: 209/364 processed, kept=208
+[23:29:01] Finalize progress: 212/364 processed, kept=211
+[23:29:20] Finalize progress: 215/364 processed, kept=214
+[23:29:39] Finalize progress: 218/364 processed, kept=217
+[23:29:58] Finalize progress: 221/364 processed, kept=220
+[23:30:17] Finalize progress: 224/364 processed, kept=223
+[23:30:36] Finalize progress: 227/364 processed, kept=226
+[23:30:55] Finalize progress: 230/364 processed, kept=229
+[23:31:14] Finalize progress: 233/364 processed, kept=232
+[23:31:32] Finalize progress: 236/364 processed, kept=235
+[23:31:51] Finalize progress: 239/364 processed, kept=238
+[23:32:10] Finalize progress: 242/364 processed, kept=241
+[23:32:29] Finalize progress: 245/364 processed, kept=244
+[23:32:48] Finalize progress: 248/364 processed, kept=247
+[23:33:07] Finalize progress: 251/364 processed, kept=250
+[23:33:26] Finalize progress: 254/364 processed, kept=253
+[23:33:45] Finalize progress: 257/364 processed, kept=256
+[23:34:04] Finalize progress: 260/364 processed, kept=259
+[23:34:23] Finalize progress: 263/364 processed, kept=262
+[23:34:42] Finalize progress: 266/364 processed, kept=265
+[23:35:01] Finalize progress: 269/364 processed, kept=268
+[23:35:20] Finalize progress: 272/364 processed, kept=271
+[23:35:39] Finalize progress: 275/364 processed, kept=274
+[23:35:58] Finalize progress: 278/364 processed, kept=277
+[23:36:17] Finalize progress: 281/364 processed, kept=280
+[23:36:36] Finalize progress: 284/364 processed, kept=283
+[23:36:55] Finalize progress: 287/364 processed, kept=286
+[23:37:14] Finalize progress: 290/364 processed, kept=289
+[23:37:33] Finalize progress: 293/364 processed, kept=292
+[23:37:52] Finalize progress: 296/364 processed, kept=295
+[23:38:11] Finalize progress: 299/364 processed, kept=298
+[23:38:30] Finalize progress: 302/364 processed, kept=301
+[23:38:49] Finalize progress: 305/364 processed, kept=304
+[23:39:08] Finalize progress: 308/364 processed, kept=307
+[23:39:27] Finalize progress: 311/364 processed, kept=310
+[23:39:46] Finalize progress: 314/364 processed, kept=313
+[23:40:06] Finalize progress: 317/364 processed, kept=316
+[23:40:25] Finalize progress: 320/364 processed, kept=319
+[23:40:44] Finalize progress: 323/364 processed, kept=322
+[23:41:03] Finalize progress: 326/364 processed, kept=325
+[23:41:22] Finalize progress: 329/364 processed, kept=328
+[23:41:41] Finalize progress: 332/364 processed, kept=331
+[23:42:00] Finalize progress: 335/364 processed, kept=334
+[23:42:19] Finalize progress: 338/364 processed, kept=337
+[23:42:38] Finalize progress: 341/364 processed, kept=340
+[23:42:57] Finalize progress: 344/364 processed, kept=343
+[23:43:16] Finalize progress: 347/364 processed, kept=346
+[23:43:35] Finalize progress: 350/364 processed, kept=349
+[23:43:54] Finalize progress: 353/364 processed, kept=352
+[23:44:13] Finalize progress: 356/364 processed, kept=355
+[23:44:32] Finalize progress: 359/364 processed, kept=358
+[23:44:51] Finalize progress: 362/364 processed, kept=361
+[23:45:10] Writing JSONL -> /opt/Polymarket-Corporate-Earnings-Collection/data/earnings_resolved_markets.jsonl (records=364)
+[23:45:10] Writing discarded JSONL -> /opt/Polymarket-Corporate-Earnings-Collection/data/earnings_discarded_markets.jsonl (records=20)
+[23:45:10] Writing CSV -> /opt/Polymarket-Corporate-Earnings-Collection/data/earnings_resolved_markets.csv
+[23:45:10] Writing summary -> /opt/Polymarket-Corporate-Earnings-Collection/data/earnings_resolved_summary.json
+[23:45:10] DONE (or cancelled). Summary:
+{
+  "run": {
+    "test_mode": false,
+    "cancelled": false,
+    "cancel_stage": "finalize",
+    "started_at_unix": 1765839744,
+    "finished_at_unix": 1765842310,
+    "elapsed_seconds": 2565.611,
+    "page_limit": 200,
+    "max_workers": 10
+  },
+  "counts": {
+    "scanned_closed_earnings_tag_markets": 384,
+    "candidates_after_strict_filter": 364,
+    "details_fetched": 364,
+    "final_resolved_markets_saved": 364
+  },
+  "endDate_range": {
+    "earliest_endDate": "2025-09-29T00:00:00Z",
+    "latest_endDate": "2025-12-11T22:00:00Z"
+  },
+  "volumeNum_stats": {
+    "count": 364,
+    "min": 1336.252219,
+    "max": 995129.929459,
+    "mean": 24558.66355232967,
+    "median": 14773.0915655
+  },
+  "discarded_jsonl": "/opt/Polymarket-Corporate-Earnings-Collection/data/earnings_discarded_markets.jsonl",
+  "discard_reasons": {
+    "no_ticker_in_question": 8,
+    "question_not_beat_earnings": 12
+  },
+  "detail_errors_count": 0,
+  "outputs": {
+    "jsonl": "/opt/Polymarket-Corporate-Earnings-Collection/data/earnings_resolved_markets.jsonl",
+    "csv": "/opt/Polymarket-Corporate-Earnings-Collection/data/earnings_resolved_markets.csv",
+    "summary": "/opt/Polymarket-Corporate-Earnings-Collection/data/earnings_resolved_summary.json"
+  },
+  "discarded_markets_logged": 20
+}
